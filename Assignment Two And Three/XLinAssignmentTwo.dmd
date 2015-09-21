@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="XLinAssignmentTwo" id="A3451545-1493-53C9-83DD-38AFD25014FD" version="3.5">
+<createdBy>lxwo_000</createdBy>
+<createdTime>2015-09-17 06:08:29 UTC</createdTime>
+<ownerDesignName>XLinAssignmentTwo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A3451545-1493-53C9-83DD-38AFD25014FD</designId>
+</OSDM_Design>

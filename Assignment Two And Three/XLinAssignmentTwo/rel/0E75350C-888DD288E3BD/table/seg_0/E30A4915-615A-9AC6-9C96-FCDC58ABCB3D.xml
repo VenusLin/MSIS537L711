@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E30A4915-615A-9AC6-9C96-FCDC58ABCB3D" name="Customer">
+<createdBy>lxwo_000</createdBy>
+<createdTime>2015-09-17 06:13:43 UTC</createdTime>
+<ownerDesignName>XLinAssignmentTwo</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CustNo" id="E1D9D68E-6F08-E549-7E71-A3816845B1C1">
+<createdBy>lxwo_000</createdBy>
+<createdTime>2015-09-17 06:34:21 UTC</createdTime>
+<ownerDesignName>XLinAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustFirstName" id="8CD745F4-7157-91C9-7DB3-31980DF217DA">
+<createdBy>lxwo_000</createdBy>
+<createdTime>2015-09-17 06:34:21 UTC</createdTime>
+<ownerDesignName>XLinAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustLastName" id="D386B4EE-E1D6-4424-3749-70DFD3C5376A">
+<createdBy>lxwo_000</createdBy>
+<createdTime>2015-09-17 06:34:21 UTC</createdTime>
+<ownerDesignName>XLinAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustCity" id="CA92E088-B010-CFC1-6F85-909459D561D4">
+<createdBy>lxwo_000</createdBy>
+<createdTime>2015-09-17 06:34:21 UTC</createdTime>
+<ownerDesignName>XLinAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustState" id="E950909E-7DFF-0248-9DEA-05E36D88E702">
+<createdBy>lxwo_000</createdBy>
+<createdTime>2015-09-17 06:34:21 UTC</createdTime>
+<ownerDesignName>XLinAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustZip" id="9337891A-6555-8AFF-55CF-50DD6BE79AE7">
+<createdBy>lxwo_000</createdBy>
+<createdTime>2015-09-17 06:34:21 UTC</createdTime>
+<ownerDesignName>XLinAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustBal" id="426A4A67-E98C-9816-6ECA-803CECB312F0">
+<createdBy>lxwo_000</createdBy>
+<createdTime>2015-09-17 06:34:21 UTC</createdTime>
+<notes>https://msdn.microsoft.com/en-us/library/ms187746.aspx (reference for numeric </notes>
+<ownerDesignName>XLinAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,18,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F31F862D-F67D-B65B-FC94-D4AF8242B5D4" name="Customer_PK">
+<createdBy>lxwo_000</createdBy>
+<createdTime>2015-09-17 06:34:21 UTC</createdTime>
+<ownerDesignName>XLinAssignmentTwo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1D9D68E-6F08-E549-7E71-A3816845B1C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

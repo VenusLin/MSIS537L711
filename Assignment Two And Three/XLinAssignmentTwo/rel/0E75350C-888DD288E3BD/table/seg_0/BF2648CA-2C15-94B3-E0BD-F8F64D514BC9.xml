@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF2648CA-2C15-94B3-E0BD-F8F64D514BC9" name="Employee">
+<createdBy>lxwo_000</createdBy>
+<createdTime>2015-09-17 06:34:41 UTC</createdTime>
+<ownerDesignName>XLinAssignmentTwo</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EmpNo" id="03B3B034-9986-9583-E4C7-A1AC76F7BDC6">
+<createdBy>lxwo_000</createdBy>
+<createdTime>2015-09-17 06:45:29 UTC</createdTime>
+<ownerDesignName>XLinAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpFirstName" id="24C28724-A634-594C-E98D-1C6B1408C29E">
+<createdBy>lxwo_000</createdBy>
+<createdTime>2015-09-17 06:45:29 UTC</createdTime>
+<ownerDesignName>XLinAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpLastName" id="ECE7E4D9-2768-8E0E-122E-49A98A9E0BC6">
+<createdBy>lxwo_000</createdBy>
+<createdTime>2015-09-17 06:45:29 UTC</createdTime>
+<ownerDesignName>XLinAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpPhone" id="A5E4D7A3-8E73-CB5E-03B2-D16D5B41133B">
+<createdBy>lxwo_000</createdBy>
+<createdTime>2015-09-17 06:45:29 UTC</createdTime>
+<notes>(XXX)-XXX-XXXX, which will be the input format. &apos;X&apos; represents &apos;0-9&apos;</notes>
+<ownerDesignName>XLinAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13 CHAR</dataTypeSize>
+<ownDataTypeParameters>13 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpEmail" id="55C3757D-52D4-FB25-F5D0-1343CE08529B">
+<createdBy>lxwo_000</createdBy>
+<createdTime>2015-09-17 06:45:29 UTC</createdTime>
+<ownerDesignName>XLinAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E67DDCC-45CE-ED2A-E3CC-2CE95E33E9D2" name="Employee_PK">
+<createdBy>lxwo_000</createdBy>
+<createdTime>2015-09-17 06:45:29 UTC</createdTime>
+<ownerDesignName>XLinAssignmentTwo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03B3B034-9986-9583-E4C7-A1AC76F7BDC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
